@@ -2,6 +2,12 @@
 
 Mixed-integer optimization of an inference computing infrastructure across Europe and the United States. This academic project models where to activate data centers, which GPU nodes to install, and how to allocate demand while respecting latency, capacity, budget, and resilience constraints.
 
+## Deployment map
+
+![World map with regional insets for the eight market hubs, eight candidate data centers and four selected centers](docs/deployment-map.svg)
+
+Green markers show the selected centers and their installed node counts. Orange diamonds mark approximate reference locations for the markets. [Natural Earth basemap](https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/).
+
 ## Model
 
 - **Objective**: minimize data-center activation, hardware and electricity costs over 2027–2029.
